@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="customFab_default">450dp</dimen>
+    <dimen name="parent_default">64dp</dimen>
+    <dimen name="child_default">56dp</dimen>
+    <dimen name="floating_card_padding">12dp</dimen>
+    <dimen name="floating_card_elevation">6dp</dimen>
+
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':customfloatingactionbutton'
+rootProject.name='CustomFloatingActionButton'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.purusharth.customfloatingactionbutton.CustomFloatingActionButton
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:dim="350dp"
+        app:childCount="5"
+        app:quadrant="2"
+        app:parentDim="64dp"
+        app:childDim="48dp"
+        app:parentBackgroundTint="#EEEEEE"
+        app:childBackgroundTint="@color/colorAccent"
+        app:layout_marginRight="32dp"
+        app:layout_marginBottom="32dp"
+        app:layout_alignParentBottom="true"
+        app:layout_alignParentRight="true"
+        android:id="@+id/customFAB"/>
+
+</RelativeLayout>

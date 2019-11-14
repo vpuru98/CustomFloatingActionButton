@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomFloatingActionButton">
+        <!-- view dimensions -->
+        <attr name="dim" format="dimension"/>
+        <attr name="parentDim" format="dimension"/>
+        <attr name="childDim" format="dimension"/>
+
+        <!-- view background tints -->
+        <attr name="parentBackgroundTint" format="color"/>
+        <attr name="childBackgroundTint" format="color"/>
+
+        <!-- positional attributes -->
+        <attr name="layout_alignParentLeft" format="boolean"/>
+        <attr name="layout_alignParentTop" format="boolean"/>
+        <attr name="layout_alignParentRight" format="boolean"/>
+        <attr name="layout_alignParentBottom" format="boolean"/>
+        <attr name="layout_centerInParent" format="boolean"/>
+        <attr name="layout_marginLeft" format="dimension"/>
+        <attr name="layout_marginRight" format="dimension"/>
+        <attr name="layout_marginTop" format="dimension"/>
+        <attr name="layout_marginBottom" format="dimension"/>
+
+        <!-- number of child views -->
+        <attr name="childCount" format="integer"/>
+
+        <!-- quadrant into which the child views will expand into -->
+        <attr name="quadrant" format="integer"/>
+    </declare-styleable>
+
+</resources>
