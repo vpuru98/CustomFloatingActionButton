@@ -12,7 +12,7 @@ CustomFloatingActionButton is a flexible library for drawing beautiful menu infl
 
 ### Usage
 
-- Add it in your root `build.gradle` at the end of repositories:
+- Add it in your root level `build.gradle` file, at the end of repositories:
     ```
    allprojects {
       repositories {
@@ -20,7 +20,7 @@ CustomFloatingActionButton is a flexible library for drawing beautiful menu infl
       }
    }
   ```
-- Add this dependency :
+- Add this dependency in your app level `build.gradle` file:
   ```
   dependencies {
 	    implementation 'com.github.hunsman98:CustomFloatingActionButton:1.0'
